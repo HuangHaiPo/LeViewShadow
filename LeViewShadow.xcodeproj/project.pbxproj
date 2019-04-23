@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E307F033226EE0C100F8C03E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E307F032226EE0C100F8C03E /* AppDelegate.m */; };
+		E307F036226EE0C100F8C03E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E307F035226EE0C100F8C03E /* ViewController.m */; };
+		E307F039226EE0C100F8C03E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E307F037226EE0C100F8C03E /* Main.storyboard */; };
+		E307F03B226EE0C300F8C03E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E307F03A226EE0C300F8C03E /* Assets.xcassets */; };
+		E307F03E226EE0C300F8C03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E307F03C226EE0C300F8C03E /* LaunchScreen.storyboard */; };
+		E307F041226EE0C300F8C03E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E307F040226EE0C300F8C03E /* main.m */; };
+		E307F04B226EE0C300F8C03E /* LeViewShadowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E307F04A226EE0C300F8C03E /* LeViewShadowTests.m */; };
+		E307F056226EE0C300F8C03E /* LeViewShadowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E307F055226EE0C300F8C03E /* LeViewShadowUITests.m */; };
+		E307F065226EE0E000F8C03E /* UIView+shadowPath.m in Sources */ = {isa = PBXBuildFile; fileRef = E307F063226EE0E000F8C03E /* UIView+shadowPath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E307F047226EE0C300F8C03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E307F026226EE0C100F8C03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E307F02D226EE0C100F8C03E;
+			remoteInfo = LeViewShadow;
+		};
+		E307F052226EE0C300F8C03E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E307F026226EE0C100F8C03E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E307F02D226EE0C100F8C03E;
+			remoteInfo = LeViewShadow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E307F02E226EE0C100F8C03E /* LeViewShadow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeViewShadow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E307F031226EE0C100F8C03E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E307F032226EE0C100F8C03E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E307F034226EE0C100F8C03E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E307F035226EE0C100F8C03E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E307F038226EE0C100F8C03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E307F03A226EE0C300F8C03E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E307F03D226EE0C300F8C03E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E307F03F226EE0C300F8C03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E307F040226EE0C300F8C03E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E307F046226EE0C300F8C03E /* LeViewShadowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeViewShadowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E307F04A226EE0C300F8C03E /* LeViewShadowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeViewShadowTests.m; sourceTree = "<group>"; };
+		E307F04C226EE0C300F8C03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E307F051226EE0C300F8C03E /* LeViewShadowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeViewShadowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E307F055226EE0C300F8C03E /* LeViewShadowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeViewShadowUITests.m; sourceTree = "<group>"; };
+		E307F057226EE0C300F8C03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E307F063226EE0E000F8C03E /* UIView+shadowPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+shadowPath.m"; sourceTree = "<group>"; };
+		E307F064226EE0E000F8C03E /* UIView+shadowPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+shadowPath.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E307F02B226EE0C100F8C03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307F043226EE0C300F8C03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307F04E226EE0C300F8C03E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E307F025226EE0C100F8C03E = {
+			isa = PBXGroup;
+			children = (
+				E307F030226EE0C100F8C03E /* LeViewShadow */,
+				E307F049226EE0C300F8C03E /* LeViewShadowTests */,
+				E307F054226EE0C300F8C03E /* LeViewShadowUITests */,
+				E307F02F226EE0C100F8C03E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E307F02F226EE0C100F8C03E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E307F02E226EE0C100F8C03E /* LeViewShadow.app */,
+				E307F046226EE0C300F8C03E /* LeViewShadowTests.xctest */,
+				E307F051226EE0C300F8C03E /* LeViewShadowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E307F030226EE0C100F8C03E /* LeViewShadow */ = {
+			isa = PBXGroup;
+			children = (
+				E307F031226EE0C100F8C03E /* AppDelegate.h */,
+				E307F032226EE0C100F8C03E /* AppDelegate.m */,
+				E307F034226EE0C100F8C03E /* ViewController.h */,
+				E307F035226EE0C100F8C03E /* ViewController.m */,
+				E307F064226EE0E000F8C03E /* UIView+shadowPath.h */,
+				E307F063226EE0E000F8C03E /* UIView+shadowPath.m */,
+				E307F037226EE0C100F8C03E /* Main.storyboard */,
+				E307F03A226EE0C300F8C03E /* Assets.xcassets */,
+				E307F03C226EE0C300F8C03E /* LaunchScreen.storyboard */,
+				E307F03F226EE0C300F8C03E /* Info.plist */,
+				E307F040226EE0C300F8C03E /* main.m */,
+			);
+			path = LeViewShadow;
+			sourceTree = "<group>";
+		};
+		E307F049226EE0C300F8C03E /* LeViewShadowTests */ = {
+			isa = PBXGroup;
+			children = (
+				E307F04A226EE0C300F8C03E /* LeViewShadowTests.m */,
+				E307F04C226EE0C300F8C03E /* Info.plist */,
+			);
+			path = LeViewShadowTests;
+			sourceTree = "<group>";
+		};
+		E307F054226EE0C300F8C03E /* LeViewShadowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E307F055226EE0C300F8C03E /* LeViewShadowUITests.m */,
+				E307F057226EE0C300F8C03E /* Info.plist */,
+			);
+			path = LeViewShadowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E307F02D226EE0C100F8C03E /* LeViewShadow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E307F05A226EE0C300F8C03E /* Build configuration list for PBXNativeTarget "LeViewShadow" */;
+			buildPhases = (
+				E307F02A226EE0C100F8C03E /* Sources */,
+				E307F02B226EE0C100F8C03E /* Frameworks */,
+				E307F02C226EE0C100F8C03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeViewShadow;
+			productName = LeViewShadow;
+			productReference = E307F02E226EE0C100F8C03E /* LeViewShadow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E307F045226EE0C300F8C03E /* LeViewShadowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E307F05D226EE0C300F8C03E /* Build configuration list for PBXNativeTarget "LeViewShadowTests" */;
+			buildPhases = (
+				E307F042226EE0C300F8C03E /* Sources */,
+				E307F043226EE0C300F8C03E /* Frameworks */,
+				E307F044226EE0C300F8C03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E307F048226EE0C300F8C03E /* PBXTargetDependency */,
+			);
+			name = LeViewShadowTests;
+			productName = LeViewShadowTests;
+			productReference = E307F046226EE0C300F8C03E /* LeViewShadowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E307F050226EE0C300F8C03E /* LeViewShadowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E307F060226EE0C300F8C03E /* Build configuration list for PBXNativeTarget "LeViewShadowUITests" */;
+			buildPhases = (
+				E307F04D226EE0C300F8C03E /* Sources */,
+				E307F04E226EE0C300F8C03E /* Frameworks */,
+				E307F04F226EE0C300F8C03E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E307F053226EE0C300F8C03E /* PBXTargetDependency */,
+			);
+			name = LeViewShadowUITests;
+			productName = LeViewShadowUITests;
+			productReference = E307F051226EE0C300F8C03E /* LeViewShadowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E307F026226EE0C100F8C03E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = leon;
+				TargetAttributes = {
+					E307F02D226EE0C100F8C03E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					E307F045226EE0C300F8C03E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E307F02D226EE0C100F8C03E;
+					};
+					E307F050226EE0C300F8C03E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = E307F02D226EE0C100F8C03E;
+					};
+				};
+			};
+			buildConfigurationList = E307F029226EE0C100F8C03E /* Build configuration list for PBXProject "LeViewShadow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E307F025226EE0C100F8C03E;
+			productRefGroup = E307F02F226EE0C100F8C03E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E307F02D226EE0C100F8C03E /* LeViewShadow */,
+				E307F045226EE0C300F8C03E /* LeViewShadowTests */,
+				E307F050226EE0C300F8C03E /* LeViewShadowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E307F02C226EE0C100F8C03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E307F03E226EE0C300F8C03E /* LaunchScreen.storyboard in Resources */,
+				E307F03B226EE0C300F8C03E /* Assets.xcassets in Resources */,
+				E307F039226EE0C100F8C03E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307F044226EE0C300F8C03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307F04F226EE0C300F8C03E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E307F02A226EE0C100F8C03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E307F036226EE0C100F8C03E /* ViewController.m in Sources */,
+				E307F065226EE0E000F8C03E /* UIView+shadowPath.m in Sources */,
+				E307F041226EE0C300F8C03E /* main.m in Sources */,
+				E307F033226EE0C100F8C03E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307F042226EE0C300F8C03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E307F04B226EE0C300F8C03E /* LeViewShadowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E307F04D226EE0C300F8C03E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E307F056226EE0C300F8C03E /* LeViewShadowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E307F048226EE0C300F8C03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E307F02D226EE0C100F8C03E /* LeViewShadow */;
+			targetProxy = E307F047226EE0C300F8C03E /* PBXContainerItemProxy */;
+		};
+		E307F053226EE0C300F8C03E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E307F02D226EE0C100F8C03E /* LeViewShadow */;
+			targetProxy = E307F052226EE0C300F8C03E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E307F037226EE0C100F8C03E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E307F038226EE0C100F8C03E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E307F03C226EE0C300F8C03E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E307F03D226EE0C300F8C03E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E307F058226EE0C300F8C03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E307F059226EE0C300F8C03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E307F05B226EE0C300F8C03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = LeViewShadow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeViewShadow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E307F05C226EE0C300F8C03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = LeViewShadow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeViewShadow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E307F05E226EE0C300F8C03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = LeViewShadowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeViewShadowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeViewShadow.app/LeViewShadow";
+			};
+			name = Debug;
+		};
+		E307F05F226EE0C300F8C03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = LeViewShadowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeViewShadowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LeViewShadow.app/LeViewShadow";
+			};
+			name = Release;
+		};
+		E307F061226EE0C300F8C03E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = LeViewShadowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeViewShadowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeViewShadow;
+			};
+			name = Debug;
+		};
+		E307F062226EE0C300F8C03E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A3G7567DKL;
+				INFOPLIST_FILE = LeViewShadowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.leon.LeViewShadowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LeViewShadow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E307F029226EE0C100F8C03E /* Build configuration list for PBXProject "LeViewShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E307F058226EE0C300F8C03E /* Debug */,
+				E307F059226EE0C300F8C03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E307F05A226EE0C300F8C03E /* Build configuration list for PBXNativeTarget "LeViewShadow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E307F05B226EE0C300F8C03E /* Debug */,
+				E307F05C226EE0C300F8C03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E307F05D226EE0C300F8C03E /* Build configuration list for PBXNativeTarget "LeViewShadowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E307F05E226EE0C300F8C03E /* Debug */,
+				E307F05F226EE0C300F8C03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E307F060226EE0C300F8C03E /* Build configuration list for PBXNativeTarget "LeViewShadowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E307F061226EE0C300F8C03E /* Debug */,
+				E307F062226EE0C300F8C03E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E307F026226EE0C100F8C03E /* Project object */;
+}
